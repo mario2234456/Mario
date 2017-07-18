@@ -23,3 +23,9 @@ ol{
 ol:hover{
   Color:black;
 }
+a:hover{
+  Color:black;
+}
+a{
+  Color:blue;
+}
