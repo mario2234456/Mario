@@ -17,4 +17,9 @@ h1 {
   font-size: 32px;
   color: blue;
 }
-
+ol{
+  color:aqua;
+}
+ol:hover{
+  Color:black;
+}
