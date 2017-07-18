@@ -23,9 +23,9 @@ ol{
 ol:hover{
   Color:black;
 }
+a{
+  color:darkviolet;
+}
 a:hover{
   Color:black;
-}
-a{
-  Color:blue;
 }
