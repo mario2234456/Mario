@@ -1,85 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      div.container {
-        width: 100%;
-        border: 4px solid black;
+    <style> 
+      .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        width: 400px;
+        height: 250px;
+        background-color: lightgrey;
       }
 
-      header, footer {
-        padding: 1em;
-        color: white;
-        background-color:darkblue;
-        clear: left;
-        text-align: center;
-      }
-
-      nav {
-        float: left;
-        max-width: 190px;
-        margin: 0;
-        padding: 1em;
-      }
-    
-      nav ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      nav ul a {
-        text-decoration: none;
-      }
-
-      article {
-        margin-left: 170px;
-        border-left: 1px solid gray;
-        padding: 1em;
-        overflow: hidden;
+      .flex-item {
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
       }
     </style>
+    <meta charset="utf-8">
+  
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <div class="container">
-
-      <header>
-        <h1>To Do List</h1>
-      </header>
-
-      <nav>
-        <ul>
-          <li>Take Barky to the restroom</li>
-          <li>Throw out trash</li>
-          <li>Clean Room</li>
-          <li>Feed Barky </li>
-          <li>Wood Plank For Rabbits</li>
-          <li>Stay  Entertained  </li> 
-        </ul>
-      </nav>
-
-      <article>
-        <img src="da.gif"alt="da" style="width:128px;height 128px;">
-        <ol>
-          <a href="https://www.hulu.com/">HULU</a>
-          <br/>
-          <a href="https://vrv.co/">VRV</a>
-          <br/>
-          <a href="https://www.youtube.com/">Youtube</a>
-          <br/>
-          <a href="https://www.tvtime.com/en/upcoming"> TV TIME</a>
-          <br/>
-          <a href="https://linustechtips.com/main/forum/91-the-floatplane-club/">Float Plane</a>
-          <br/>
-          <a href="http://www.piskelapp.com/user/6578550850191360#">Piskel</a>
-          <br/>
-          <a href="https://thimble.mozilla.org/en-US/projects/">Thimble</a>
-        </ol>
-      </article>
-
-      <footer>website try#2</footer>
-
+    
+    <div id="header" style="background-color:black;color:blue;padding:1px;">
+    <h1> TDL and favs  </h1>
     </div>
-
+    <hr/>
+    <div id="main">
+    <p>
+      <em><strong> List of Daily Chores</strong></em> 
+    </p>
+    
+    <ol>
+    <li>Take Barky to the restroom</li>
+    <li>Throw out trash</li>
+      <li>Clean Room</li>
+      <li>Feed Barky </li>
+      <li>Wood Plank For Rabbits</li>
+      <li>Stay  Entertained  </li>
+    </ol>
+    <img src="vp.gif" alt="Dadpic" style="width:372px;height:662px;">
+    </div>
+    <div id="aside">
+    <ol>
+      <a href="https://www.hulu.com/">HULU</a>
+      <br/>
+    <a href="https://vrv.co/">VRV</a>
+      <br/>
+      <a href="https://www.youtube.com/">Youtube</a>
+      <br/>
+      <a href="https://www.tvtime.com/en/upcoming"> TV TIME</a>
+      <br/>
+      <a href="https://linustechtips.com/main/forum/91-the-floatplane-club/">Float Plane</a>
+      <br/>
+      <a href="http://www.piskelapp.com/user/6578550850191360#">Piskel</a>
+      <br/>
+      <a href="https://thimble.mozilla.org/en-US/projects/">Thimble</a>
+    </ol>
+    </div>
   </body>
+
 </html>
