@@ -44,27 +44,17 @@ div{
   background-color: slategray;
 }
 #aside{
-    width:auto;
-    height:auto;
+  width:auto;
+  height:auto;
   background-color: slategray;
-  
-  }
-body {
-  direction:ltr;
-}
 
-.flex-container {
-  display: -webkit-flex;
-  display: flex;
-  width: 400px;
-  height: 250px;
-  background-color: lightgray;
 }
+#pictureod{
+  width:67px;
+  height:auto;
+  background-color: slategray;
+  border-style: dashed;
+  border-width: thick;
 
-.flex-item {
-  background-color: cornflowerblue;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
 }
 
